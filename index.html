@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Расчет стоимости пиццы</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="calc-wrapper">
+        <div class="container">
+            <form id="form">
+                <div class="heading">
+                    <h1 class="heading-title">Калькулятор стоимости пиццы</h1>
+                </div>
+
+                <div class="calc-section">
+                    <h4 class="checkbox-wrapper title-bold section-title">Основа</h4>
+                    <label class="radio-wrapper">
+							<input type="radio" class="radio" name="base" data-name="Тонкое тесто" data-price="5" data-calorie="100"checked/>
+							<div class="title-lite" >Тонкое тесто</div>
+						</label>
+                    <label class="radio-wrapper">
+							<input type="radio" class="radio" name="base" data-name="Толстое тесто" data-price="7" data-calorie="150"  />
+							<div class="title-lite" >
+								Толстое тесто
+								
+							</div>
+						</label>
+                    <label class="radio-wrapper">
+							<input type="radio" class="radio" name="base" data-name="Кальцоне" data-price="9" data-calorie="200" />
+							<div class="title-lite" >
+								Кальцоне
+								
+							</div>
+						</label>
+                </div>
+
+                <div class="calc-section">
+                    <label class="checkbox-wrapper title-bold section-title"> Соус </label>
+                    <label class="radio-wrapper">
+							<input type="radio" class="radio" name="sauce" data-name="Соевый" data-price="3" data-calorie="50"checked />
+							<div class="title-lite" >Соевый</div>
+						</label>
+                    <label class="radio-wrapper">
+							<input type="radio" class="radio" name="sauce" data-name="Барбекю" data-price="3" data-calorie="50" />
+							<div class="title-lite" >
+								Барбекю
+								
+							</div>
+						</label>
+                </div>
+
+                <div class="calc-section">
+                    <label class="checkbox-wrapper title-bold section-title"> Дополнительные опции </label>
+                    <label class="radio-wrapper">
+							<input type="checkbox" class="radio" name="olives" data-name="Оливки" data-price="3" data-calorie="100" />
+							<div class="title-lite" >
+								Оливки
+								<span class="note">3 руб.</span>
+							</div>
+						</label>
+                    <label class="radio-wrapper">
+							<input type="checkbox" class="radio" name="seafood" data-name="Морепродукты" data-price="4" data-calorie="200" />
+							<div class="title-lite" >
+								Морепродукты
+								<span class="note">4 руб.</span>
+							</div>
+						</label>
+                    <label class="radio-wrapper">
+							<input type="checkbox" class="radio" name="condiments" data-name="Приправы" data-price="1" data-calorie="50" />
+							<div class="title-lite" >
+								Приправы
+								<span class="note">1 руб.</span>
+							</div>
+						</label>
+                </div>
+
+                <button class="button">
+                    Рассчитать стоимость
+                </button>
+            </form>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

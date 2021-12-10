@@ -1,0 +1,118 @@
+/* ------------------- General ------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #161616;
+    margin: 0;
+    padding-bottom: 140px;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+
+
+/* Calc */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+/* ------------------- Calc ------------------- */
+
+.calc-wrapper {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.heading-title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.48px;
+    text-align: center;
+}
+
+.calc-section {
+    padding: 40px 50px;
+    background-color: #f4f8fa;
+}
+
+.calc-section:nth-child(odd) {
+    padding: 40px 50px;
+    background-color: #fff;
+}
+
+.calc-title-light {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.title__inline+.title__inline {
+    margin-left: 10px;
+}
+
+.radio-wrapper {
+    display: flex;
+}
+
+.radio-wrapper .radio {
+    margin-top: 9px;
+}
+
+.radio-wrapper:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.radio-wrapper .radio {
+    margin-right: 15px;
+    margin-top: 6px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.title-bold {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title-lite {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.checkbox-wrapper .checkbox {
+    margin-right: 15px;
+}
+
+.button {
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 30px;
+}
